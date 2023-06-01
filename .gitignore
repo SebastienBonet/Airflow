@@ -1,1 +1,8 @@
 *.log
+logs/scheduler/2023-06-01/dag1.py.log
+logs/dag_processor_manager/dag_processor_manager.log
+logs/scheduler/2023-06-01/dag1.py.log
+logs/scheduler/2023-06-01/dag2.py.log
+logs/scheduler/2023-06-01/dag3.py.log
+logs/scheduler/2023-06-01/hello_world_dag.py.log
+logs/scheduler/2023-06-01/process_employee.py.log

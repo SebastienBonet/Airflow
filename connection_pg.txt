@@ -1,0 +1,13 @@
+gitpod /workspace/Airflow (main) $ docker container ps
+CONTAINER ID   IMAGE                  COMMAND                  CREATED       STATUS                    PORTS                                       NAMES
+9c598fb2a1ba   apache/airflow:2.5.1   "/usr/bin/dumb-init …"   3 hours ago   Up 13 minutes (healthy)   8080/tcp                                    airflow-airflow-worker-1
+26cbef5c103c   apache/airflow:2.5.1   "/usr/bin/dumb-init …"   3 hours ago   Up 13 minutes (healthy)   8080/tcp                                    airflow-airflow-scheduler-1
+7fa159139243   apache/airflow:2.5.1   "/usr/bin/dumb-init …"   3 hours ago   Up 13 minutes (healthy)   8080/tcp                                    airflow-airflow-triggerer-1
+e6d2a84316ba   apache/airflow:2.5.1   "/usr/bin/dumb-init …"   3 hours ago   Up 13 minutes (healthy)   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   airflow-airflow-webserver-1
+2e8d9dfd7c10   postgres:13            "docker-entrypoint.s…"   4 hours ago   Up 13 minutes (healthy)   5432/tcp                                    airflow-postgres-1
+5e4f6e550640   redis:latest           "docker-entrypoint.s…"   4 hours ago   Up 13 minutes (healthy)   6379/tcp                                    airflow-redis-1
+gitpod /workspace/Airflow (main) $ docker exec -it 2e8d9dfd7c10 psql -U airflow -d airflow
+psql (13.11 (Debian 13.11-1.pgdg110+1))
+Type "help" for help.
+
+airflow=# 

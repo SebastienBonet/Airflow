@@ -5720,3 +5720,381 @@ File Path                                PID  Runtime      # DAGs    # Errors  L
 /opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T12:59:04
 /opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T12:59:16
 ================================================================================
+[2023-06-01T13:00:04.960+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.10s           2023-06-01T12:59:34
+/opt/airflow/dags/dag2.py               5408  0.01s             1           0  0.12s           2023-06-01T12:59:34
+/opt/airflow/dags/dag3.py               5407  0.01s             1           0  0.13s           2023-06-01T12:59:34
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.12s           2023-06-01T12:59:34
+/opt/airflow/dags/process_employee.py                           1           0  0.12s           2023-06-01T12:59:46
+================================================================================
+[2023-06-01T13:00:35.368+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:00:05
+/opt/airflow/dags/dag2.py               5476  0.01s             1           0  0.10s           2023-06-01T13:00:05
+/opt/airflow/dags/dag3.py               5475  0.01s             1           0  0.10s           2023-06-01T13:00:05
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:00:05
+/opt/airflow/dags/process_employee.py                           1           0  0.14s           2023-06-01T13:00:17
+================================================================================
+[2023-06-01T13:01:05.778+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.12s           2023-06-01T13:00:35
+/opt/airflow/dags/dag2.py               5538  0.01s             1           0  0.09s           2023-06-01T13:00:35
+/opt/airflow/dags/dag3.py               5537  0.01s             1           0  0.09s           2023-06-01T13:00:35
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:00:35
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:00:47
+================================================================================
+[2023-06-01T13:01:36.099+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:01:05
+/opt/airflow/dags/dag2.py               5606  0.00s             1           0  0.09s           2023-06-01T13:01:05
+/opt/airflow/dags/dag3.py               5605  0.01s             1           0  0.09s           2023-06-01T13:01:05
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:01:05
+/opt/airflow/dags/process_employee.py                           1           0  0.12s           2023-06-01T13:01:18
+================================================================================
+[2023-06-01T13:02:06.487+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:01:36
+/opt/airflow/dags/dag2.py               5666  0.01s             1           0  0.09s           2023-06-01T13:01:36
+/opt/airflow/dags/dag3.py               5665  0.01s             1           0  0.08s           2023-06-01T13:01:36
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:01:36
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:01:48
+================================================================================
+[2023-06-01T13:02:36.826+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:02:06
+/opt/airflow/dags/dag2.py               5736  0.01s             1           0  0.11s           2023-06-01T13:02:06
+/opt/airflow/dags/dag3.py               5735  0.01s             1           0  0.13s           2023-06-01T13:02:06
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:02:06
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:02:18
+================================================================================
+[2023-06-01T13:02:39.006+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-06-01T13:02:39.008+0000] {manager.py:729} INFO - There are 5 files in /opt/airflow/dags
+[2023-06-01T13:03:07.203+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:02:37
+/opt/airflow/dags/dag2.py               5795  0.01s             1           0  0.09s           2023-06-01T13:02:36
+/opt/airflow/dags/dag3.py               5794  0.01s             1           0  0.09s           2023-06-01T13:02:36
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:02:36
+/opt/airflow/dags/process_employee.py                           1           0  0.13s           2023-06-01T13:02:49
+================================================================================
+[2023-06-01T13:03:37.527+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.11s           2023-06-01T13:03:07
+/opt/airflow/dags/dag2.py               5866  0.01s             1           0  0.09s           2023-06-01T13:03:07
+/opt/airflow/dags/dag3.py               5865  0.01s             1           0  0.09s           2023-06-01T13:03:07
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.11s           2023-06-01T13:03:07
+/opt/airflow/dags/process_employee.py                           1           0  0.12s           2023-06-01T13:03:19
+================================================================================
+[2023-06-01T13:04:07.847+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.08s           2023-06-01T13:03:37
+/opt/airflow/dags/dag2.py               5919  0.01s             1           0  0.10s           2023-06-01T13:03:37
+/opt/airflow/dags/dag3.py               5918  0.01s             1           0  0.10s           2023-06-01T13:03:37
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:03:37
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:03:49
+================================================================================
+[2023-06-01T13:04:38.283+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.13s           2023-06-01T13:04:08
+/opt/airflow/dags/dag2.py               5996  0.01s             1           0  0.09s           2023-06-01T13:04:07
+/opt/airflow/dags/dag3.py               5995  0.01s             1           0  0.09s           2023-06-01T13:04:07
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:04:08
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:04:20
+================================================================================
+[2023-06-01T13:05:08.691+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:04:38
+/opt/airflow/dags/dag2.py               6049  0.01s             1           0  0.08s           2023-06-01T13:04:38
+/opt/airflow/dags/dag3.py               6048  0.01s             1           0  0.08s           2023-06-01T13:04:38
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.08s           2023-06-01T13:04:38
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:04:50
+================================================================================
+[2023-06-01T13:05:39.109+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:05:08
+/opt/airflow/dags/dag2.py               6126  0.00s             1           0  0.11s           2023-06-01T13:05:08
+/opt/airflow/dags/dag3.py               6125  0.01s             1           0  0.13s           2023-06-01T13:05:08
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:05:08
+/opt/airflow/dags/process_employee.py                           1           0  0.12s           2023-06-01T13:05:21
+================================================================================
+[2023-06-01T13:06:09.412+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.08s           2023-06-01T13:05:39
+/opt/airflow/dags/dag2.py               6179  0.01s             1           0  0.09s           2023-06-01T13:05:39
+/opt/airflow/dags/dag3.py               6178  0.01s             1           0  0.09s           2023-06-01T13:05:39
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:05:39
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:05:51
+================================================================================
+[2023-06-01T13:06:39.784+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.08s           2023-06-01T13:06:09
+/opt/airflow/dags/dag2.py               6256  0.01s             1           0  0.09s           2023-06-01T13:06:09
+/opt/airflow/dags/dag3.py               6255  0.01s             1           0  0.08s           2023-06-01T13:06:09
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.08s           2023-06-01T13:06:09
+/opt/airflow/dags/process_employee.py                           1           0  0.12s           2023-06-01T13:06:21
+================================================================================
+[2023-06-01T13:07:10.115+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.10s           2023-06-01T13:06:39
+/opt/airflow/dags/dag2.py               6309  0.00s             1           0  0.10s           2023-06-01T13:06:39
+/opt/airflow/dags/dag3.py               6308  0.01s             1           0  0.09s           2023-06-01T13:06:39
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.11s           2023-06-01T13:06:39
+/opt/airflow/dags/process_employee.py                           1           0  0.12s           2023-06-01T13:06:52
+================================================================================
+[2023-06-01T13:07:39.464+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-06-01T13:07:39.465+0000] {manager.py:729} INFO - There are 5 files in /opt/airflow/dags
+[2023-06-01T13:07:40.494+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.08s           2023-06-01T13:07:10
+/opt/airflow/dags/dag2.py               6386  0.01s             1           0  0.09s           2023-06-01T13:07:10
+/opt/airflow/dags/dag3.py               6385  0.01s             1           0  0.09s           2023-06-01T13:07:10
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:07:10
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:07:22
+================================================================================
+[2023-06-01T13:08:10.829+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.11s           2023-06-01T13:07:40
+/opt/airflow/dags/dag2.py               6439  0.01s             1           0  0.09s           2023-06-01T13:07:40
+/opt/airflow/dags/dag3.py               6438  0.01s             1           0  0.09s           2023-06-01T13:07:40
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.12s           2023-06-01T13:07:40
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:07:52
+================================================================================
+[2023-06-01T13:08:41.165+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.08s           2023-06-01T13:08:11
+/opt/airflow/dags/dag2.py               6516  0.01s             1           0  0.09s           2023-06-01T13:08:10
+/opt/airflow/dags/dag3.py               6515  0.01s             1           0  0.08s           2023-06-01T13:08:10
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:08:10
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:08:23
+================================================================================
+[2023-06-01T13:09:11.549+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:08:41
+/opt/airflow/dags/dag2.py               6569  0.01s             1           0  0.09s           2023-06-01T13:08:41
+/opt/airflow/dags/dag3.py               6568  0.01s             1           0  0.09s           2023-06-01T13:08:41
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:08:41
+/opt/airflow/dags/process_employee.py                           1           0  0.20s           2023-06-01T13:08:53
+================================================================================
+[2023-06-01T13:09:41.951+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:09:11
+/opt/airflow/dags/dag2.py               6645  0.01s             1           0  0.09s           2023-06-01T13:09:11
+/opt/airflow/dags/dag3.py               6644  0.02s             1           0  0.09s           2023-06-01T13:09:11
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:09:11
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:09:23
+================================================================================
+[2023-06-01T13:10:12.345+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:09:42
+/opt/airflow/dags/dag2.py               6698  0.00s             1           0  0.10s           2023-06-01T13:09:42
+/opt/airflow/dags/dag3.py               6697  0.01s             1           0  0.11s           2023-06-01T13:09:42
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:09:42
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:09:54
+================================================================================
+[2023-06-01T13:10:42.646+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.08s           2023-06-01T13:10:12
+/opt/airflow/dags/dag2.py               6775  0.01s             1           0  0.09s           2023-06-01T13:10:12
+/opt/airflow/dags/dag3.py               6774  0.01s             1           0  0.09s           2023-06-01T13:10:12
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.08s           2023-06-01T13:10:12
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:10:24
+================================================================================
+[2023-06-01T13:11:13.025+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.08s           2023-06-01T13:10:42
+/opt/airflow/dags/dag2.py               6828  0.01s             1           0  0.09s           2023-06-01T13:10:42
+/opt/airflow/dags/dag3.py               6827  0.01s             1           0  0.09s           2023-06-01T13:10:42
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.08s           2023-06-01T13:10:42
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:10:54
+================================================================================
+[2023-06-01T13:11:43.357+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:11:13
+/opt/airflow/dags/dag2.py               6905  0.01s             1           0  0.09s           2023-06-01T13:11:13
+/opt/airflow/dags/dag3.py               6904  0.02s             1           0  0.09s           2023-06-01T13:11:13
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:11:13
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:11:25
+================================================================================
+[2023-06-01T13:12:13.785+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:11:43
+/opt/airflow/dags/dag2.py               6958  0.01s             1           0  0.13s           2023-06-01T13:11:43
+/opt/airflow/dags/dag3.py               6957  0.01s             1           0  0.15s           2023-06-01T13:11:43
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:11:43
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:11:55
+================================================================================
+[2023-06-01T13:12:40.068+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-06-01T13:12:40.070+0000] {manager.py:729} INFO - There are 5 files in /opt/airflow/dags
+[2023-06-01T13:12:44.113+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.08s           2023-06-01T13:12:13
+/opt/airflow/dags/dag2.py               7035  0.01s             1           0  0.10s           2023-06-01T13:12:13
+/opt/airflow/dags/dag3.py               7034  0.01s             1           0  0.09s           2023-06-01T13:12:13
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:12:13
+/opt/airflow/dags/process_employee.py                           1           0  0.12s           2023-06-01T13:12:26
+================================================================================
+[2023-06-01T13:13:14.544+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.10s           2023-06-01T13:12:44
+/opt/airflow/dags/dag2.py               7088  0.00s             1           0  0.11s           2023-06-01T13:12:44
+/opt/airflow/dags/dag3.py               7087  0.01s             1           0  0.12s           2023-06-01T13:12:44
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:12:44
+/opt/airflow/dags/process_employee.py                           1           0  0.11s           2023-06-01T13:12:56
+================================================================================
+[2023-06-01T13:13:44.956+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.08s           2023-06-01T13:13:14
+/opt/airflow/dags/dag2.py               7165  0.00s             1           0  0.13s           2023-06-01T13:13:14
+/opt/airflow/dags/dag3.py               7164  0.01s             1           0  0.13s           2023-06-01T13:13:14
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:13:14
+/opt/airflow/dags/process_employee.py                           1           0  0.14s           2023-06-01T13:13:26
+================================================================================
+[2023-06-01T13:14:15.350+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.09s           2023-06-01T13:13:45
+/opt/airflow/dags/dag2.py               7218  0.01s             1           0  0.09s           2023-06-01T13:13:45
+/opt/airflow/dags/dag3.py               7217  0.01s             1           0  0.10s           2023-06-01T13:13:45
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:13:45
+/opt/airflow/dags/process_employee.py                           1           0  0.15s           2023-06-01T13:13:57
+================================================================================
+[2023-06-01T13:14:45.747+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.10s           2023-06-01T13:14:15
+/opt/airflow/dags/dag2.py               7295  0.01s             1           0  0.09s           2023-06-01T13:14:15
+/opt/airflow/dags/dag3.py               7294  0.01s             1           0  0.09s           2023-06-01T13:14:15
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.09s           2023-06-01T13:14:15
+/opt/airflow/dags/process_employee.py                           1           0  0.12s           2023-06-01T13:14:27
+================================================================================
+[2023-06-01T13:15:16.161+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag1.py                                       1           0  0.12s           2023-06-01T13:14:46
+/opt/airflow/dags/dag2.py               7348  0.01s             1           0  0.15s           2023-06-01T13:14:45
+/opt/airflow/dags/dag3.py               7347  0.01s             1           0  0.15s           2023-06-01T13:14:45
+/opt/airflow/dags/hello_world_dag.py                            1           0  0.13s           2023-06-01T13:14:46
+/opt/airflow/dags/process_employee.py                           1           0  0.17s           2023-06-01T13:14:58
+================================================================================

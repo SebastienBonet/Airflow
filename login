@@ -1,0 +1,2 @@
+login = airflow
+password = airflow

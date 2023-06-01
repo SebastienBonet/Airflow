@@ -1,0 +1,27 @@
+[2023-06-01T10:04:15.472+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: hello_world_AB.hello_task_A scheduled__2023-06-01T10:04:04.148476+00:00 [queued]>
+[2023-06-01T10:04:15.480+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: hello_world_AB.hello_task_A scheduled__2023-06-01T10:04:04.148476+00:00 [queued]>
+[2023-06-01T10:04:15.481+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-01T10:04:15.481+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-06-01T10:04:15.481+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-01T10:04:15.493+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): hello_task_A> on 2023-06-01 10:04:04.148476+00:00
+[2023-06-01T10:04:15.518+0000] {standard_task_runner.py:55} INFO - Started process 6178 to run task
+[2023-06-01T10:04:15.520+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'hello_world_AB', 'hello_task_A', 'scheduled__2023-06-01T10:04:04.148476+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/dag1.py', '--cfg-path', '/tmp/tmpo8xvfq7f']
+[2023-06-01T10:04:15.521+0000] {standard_task_runner.py:83} INFO - Job 39: Subtask hello_task_A
+[2023-06-01T10:04:15.570+0000] {task_command.py:388} INFO - Running <TaskInstance: hello_world_AB.hello_task_A scheduled__2023-06-01T10:04:04.148476+00:00 [running]> on host 9c598fb2a1ba
+[2023-06-01T10:04:15.626+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=hello_world_AB
+AIRFLOW_CTX_TASK_ID=hello_task_A
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-01T10:04:04.148476+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-01T10:04:04.148476+00:00
+[2023-06-01T10:04:15.626+0000] {logging_mixin.py:137} INFO - #############################################
+[2023-06-01T10:04:15.626+0000] {logging_mixin.py:137} INFO -   Hello from TASK : hello_task_A
+[2023-06-01T10:04:15.626+0000] {logging_mixin.py:137} INFO - 23-06-01 12:04:15
+[2023-06-01T10:04:15.627+0000] {logging_mixin.py:137} INFO - #############################################
+[2023-06-01T10:04:20.630+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-06-01T10:04:20.640+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=hello_world_AB, task_id=hello_task_A, execution_date=20230601T100404, start_date=20230601T100415, end_date=20230601T100420
+[2023-06-01T10:04:20.698+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-06-01T10:04:20.715+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
